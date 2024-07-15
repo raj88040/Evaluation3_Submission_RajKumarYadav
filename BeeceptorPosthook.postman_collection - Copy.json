@@ -1,0 +1,103 @@
+{
+	"info": {
+		"_postman_id": "c6a1897b-7eda-479a-b248-b59e51798a8e",
+		"name": "BeeceptorPosthook",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "35112262"
+	},
+	"item": [
+		{
+			"name": "Schedule a Hook",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{globalurl}}/v1/hooks",
+					"host": [
+						"{{globalurl}}"
+					],
+					"path": [
+						"v1",
+						"hooks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Hooks",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url1}}/v1/hooks",
+					"host": [
+						"{{url1}}"
+					],
+					"path": [
+						"v1",
+						"hooks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Hooks by ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url1}}/v1/hooks/8e3aa909-fb84-4495-944d-a4c192defe66",
+					"host": [
+						"{{url1}}"
+					],
+					"path": [
+						"v1",
+						"hooks",
+						"8e3aa909-fb84-4495-944d-a4c192defe66"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete hooks by ID",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{globalurl}}/v1/hooks/8e3aa909-fb84-4495-944d-a4c192defe66",
+					"host": [
+						"{{globalurl}}"
+					],
+					"path": [
+						"v1",
+						"hooks",
+						"8e3aa909-fb84-4495-944d-a4c192defe66"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Updated project",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "{{globalurl}}/v1/projects/",
+					"host": [
+						"{{globalurl}}"
+					],
+					"path": [
+						"v1",
+						"projects",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
