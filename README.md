@@ -1,5 +1,5 @@
 Project title - Beeceptor Posthook API Testing
-Your name - Raj Kumar Yadav
+Name - Raj Kumar Yadav
 Prerequisites-
 Tool - 1)Postman
        2)STS
